@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- || TITLE -->
+    <title>Mangaung Metro Economic Development Summit | Registration</title>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- || JS -->
+    <script defer src="/js/main.js"></script>
+    <!-- || FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/449847b9b4.js" crossorigin="anonymous"></script>
+    <!-- || SCROLL REVEAL EFFECTS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    <!-- PRELOADER -->
+    <div class="preloader" id="loader"></div>
+    
+    <!-- || HEADER -->
+    <header class="register-header home-header">
+        <!-- LOGO CONTAINER -->
+        <div class="logo-container">
+            <a href="/html/index.html">
+                <img class="logo" src="/media/images/leaf-2818896_1280.jpg" alt="mangaung logo">
+            </a>
+        </div>
+
+        <!-- || HEADING CONTAINER -->
+        <div class="heading-container">
+            <img src="/media/images/write.png" alt="fill form">
+            <h1>Registration</h1>            
+        </div>
+
+        <!-- || SPACE -->
+        <div class="map-container">
+            <img src="/media/icons/south-africa.png" alt="south african map">
+        </div>
+    </header>
+
+    <!-- || MAIN -->
+    <main class="registration-main">          
+        <div class="form-container scroll-reveal">
+
+            <!-- || TITLE -->
+
+            <div class="title">
+                Fill The Form
+            </div>
+
+            <form class="attendee-form" action="#">
+                <div class="user-details">
+                    <!-- || TITLE -->
+                    <div class="input-box">
+                        <label for="title" class="details">Title:</label>
+                        <input type="text" required>
+                    </div>
+                    <!-- || SURNAME -->
+                    <div class="input-box">
+                        <label for="surname" class="details">Surname:</label>
+                        <input type="text" required>
+                    </div>         
+                    <!-- || NAME -->
+                    <div class="input-box">
+                        <label for="name" class="details">Name:</label>
+                        <input type="text" required>
+                    </div>       
+                    <!-- || EMAIL -->
+                    <div class="input-box">
+                        <label for="email" class="details">Email Address:</label>
+                        <input type="text" required>
+                    </div>          
+                    <!-- || AGE  -->
+                    <div class="input-box">
+                        <label for="age" class="details">Age:</label>
+                        <input type="number" min="1" max="99" required>
+                    </div>
+                    <!-- || COMPANY -->
+                    <div class="input-box">
+                        <label for="company" class="details">Company:</label>
+                        <input type="text" required>
+                    </div>    
+                    <!-- || INDUSTRY -->
+                    <div class="input-box">
+                        <label for="industry" class="details">Industry:</label>
+                        <input type="text" required>
+                    </div>           
+                    <!-- || COMPANY LOCATION -->
+                    <div class="input-box">
+                        <label for="location" class="details">Company Location:</label>
+                        <input type="text"  required>
+                    </div>             
+                     <!-- || TOTAL PEOPLE PER COMPANY  -->
+                     <div class="input-box">
+                        <label for="companions" class="details">Total people per company: <span style="color: red;">max 2</span></label>
+                        <input type="number" min="0" max="2" required>
+                    </div>
+                    <!-- || ENTER PASSWORD -->
+                    <div class="input-box">
+                        <label for="password" class="details">Password:</label>
+                        <input type="password" required>
+                    </div>
+                     <!-- || RETYPE PASSWORD -->
+                     <div class="input-box">
+                        <label for="retype-password" class="details">Confirm Password:</label>
+                        <input type="password" required>
+                    </div>
+                </div>
+
+                <!-- || SELECT GENDER -->
+                <div class="gender-details">
+                    <input type="radio" name="gender" id="dot-1">
+                    <input type="radio" name="gender" id="dot-2">
+                    <input type="radio" name="gender" id="dot-3">
+                    <span class="gender-title">Gender</span>
+                    <div class="category">
+                        <!-- || MALE -->
+                        <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                        </label>
+                        <!-- || FEMALE -->
+                        <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="female">Female</span>
+                        </label>
+                        <!-- || PREFRER NOT TO SAY -->
+                        <label for="dot-3">
+                            <span class="dot three"></span>
+                            <span class="gender">Prefer not to say</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- || REGISTER BUTTON -->
+                <div class="button">
+                    <input type="submit" value="Register" onclick="openPopup()">
+                </div>
+
+            </form>
+            <!-- || END FORM -->
+        </div>
+       
+
+    </main>
+</body>
+</html>
